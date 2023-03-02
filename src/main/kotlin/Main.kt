@@ -7,7 +7,7 @@ fun main(){
         man.speak("I love music")
         man.birthday()
          println(man.age)
-    var ann = Student("Wakahia","Okoyo","annmuyale@gmail.com" ,"075678901","8987")
+    var ann = User("Wakahia","Okoyo","annmuyale@gmail.com" ,"075678901","8987")
         println(ann.Phonenumber)
         println(ann.lastname)
 
@@ -33,7 +33,7 @@ class Human(var name:String, var age:Int ,var weight:Int){
 
     }    }
 
-data class Student(var firstname :String, var lastname:String,var email:String,var Phonenumber:String,var password:String ){
+data class User(var firstname :String, var lastname:String,var email:String,var Phonenumber:String,var password:String ){
 
 
 }
